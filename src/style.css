@@ -1,0 +1,135 @@
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: rgb(29, 28, 28);
+}
+
+h1{
+
+  color: aliceblue;
+  margin: 2em;
+
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  width: 70%;
+  height: 8em;
+  font-size: 50px;
+  
+}
+
+
+img {
+  width: 100%;
+  height: 10em;
+  /*object-fit: contain; */
+  transition: transform 260ms ease-in-out;
+}
+
+ img:hover {
+
+  transform: scale(1.1);
+  opacity: 0.9;
+
+}
+
+
+.left-arrow,
+.right-arrow {
+
+  position: absolute;
+  z-index: 1;
+  font-size: 50px;
+  top: 50%;
+  color: aliceblue;
+  padding: 4px 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  left: 0.8em;
+}
+
+.right-arrow {
+  right: 0.8em;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .slide {
+    width: 50%;
+    height: 10em;
+    font-size: 50px;
+    
+  }
+  
+  
+  img {
+    width: 100%;
+    height: 10em;
+  }
+
+  .left-arrow {
+    left: 4em;
+  }
+  
+  .right-arrow {
+    right: 4em;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .slide {
+    width: 100%;
+    height: 10em;
+    font-size: 25px;
+    
+  }
+  
+  
+  img {
+    width: 85%;
+    height: 10em;
+    margin-top: 3em;
+  }
+
+  .left-arrow,
+.right-arrow{
+
+  position: absolute;
+  z-index: 1;
+  font-size: 35px;
+  top: 80%;
+  color: aliceblue;
+  padding: 2px 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+  .left-arrow {
+    left: -0.5em;
+  }
+  
+  .right-arrow {
+    right: -0.5em;
+  }
+
+}
