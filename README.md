@@ -4,8 +4,7 @@ An images carousel project built with ReactJs and designed in CSS.
 
 # Screenshoot
 
-
-
+![Carousel](https://github.com/Andrea7701/Carousel/assets/156012853/c397e519-e51c-4b18-9f59-2f509324fa1a)
 
 # Live Deployment
 
