@@ -12,7 +12,8 @@ An images carousel project built with ReactJs and designed in CSS.
 
 
 # Built With 
- - ;
+ - ReactJS;
+ - Hooks;
  - Css;
 
 # Author
